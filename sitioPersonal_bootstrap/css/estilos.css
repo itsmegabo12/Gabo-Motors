@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #17252c;
+}
+
+
+.hero {
+    min-height: 350px;
+    background-image: url("../imagenes/janbaby-winding-road-1556177.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-catalogo {
+    min-height: 180px;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+                        rgba(0, 0, 0, 0.5)),
+        url("../imagenes/catalogo.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.variedad h3 {
+    color: #00c9c5;
+}
+
+
+.footer-bambu {
+    background-color: #132a32;
+}
+
+
+/* Ajustes para celulares */
+@media (max-width: 575.98px) {
+    .hero {
+        min-height: 250px;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .banner-destinos {
+        min-height: 130px;
+    }
+}
